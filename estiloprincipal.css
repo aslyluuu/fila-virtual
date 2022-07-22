@@ -22,16 +22,17 @@
 }
 
 .cabecera img {
-    width: 100px;
+    width: 100;
 }
 .cabecera h1 {
     position: absolute;
     top: 40px;
-    left: 150px;
+    left: 200px;
+}
 .cabecera_frase{
     position: absolute;
     top: 70px;
-    left: 235px;
+    left: 200px;
     
 }
 .nav{
@@ -39,19 +40,19 @@
     position: absolute;
     background: none;
     height: auto;
-    width: unset;
+    width: Unset;
     border: none;
     top: 5px;
     left: 700px;
 }
 .nav_link_1 {
-    background: #008899;
+    background: #8b55a1;
     color: white;
     padding: 5px;
     border-radius: 3px;
 }
 .nav_link_2{
-    background: #008899;
+    background: #8b55a1;
     color: white;
     padding: 5px;
     border-radius: 3px;
@@ -59,14 +60,14 @@
     
 }
 .nav_link_3{
-    background: #008899;
+    background: #8b55a1;
     color: white;
     padding: 5px;
     border-radius: 3px;
 
 }
-    
-    .galeria {
+
+.galeria {
     width: 100%;
     height: 400px;
     background: #c08fbd;
@@ -118,3 +119,110 @@ label{
     cursor: pointer;
     
 }
+
+.tienda {
+
+display: grid;
+grid-template: repeat(3, 300px) / repeat(3, 300px); 
+justify-content: center;
+grid-gap:16px;
+width: 100%;
+height: auto;
+} 
+
+.tienda article {
+
+display: flex;
+justify-content: center;
+align-content: space-between;
+flex-flow: wrap;
+border: solid;
+border-radius:15px;
+overflow: hidden;
+}
+
+.tienda img {
+    position: relative;
+    top:5px;
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+}
+  
+ .tienda div {
+width: 100%;
+height: 30px;
+background: magenta;
+    }
+    
+    
+    .tienda div h3{
+        text-align: center;
+        color: white;
+       
+    }
+        
+    .tienda p{
+        font: 120% sans-serif;
+        text-align: justify;
+        padding: 15px;
+    }
+    
+        
+        
+    .espacio{
+        position: relative;
+        height: 20px;
+            
+    }     
+    
+    .piepagina{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        height: 105px;
+        background: magenta;
+        align-content: center;
+    }
+        
+    
+     
+    .piepagina footer{
+        text-align: center;
+        color: white;
+    }  
+       
+        
+    
+    @media screen and (max-width: 600px) {
+        .tienda{
+            grid-template: repeat (3,300px)  / repeat (1,300px);
+        }
+    }
+    
+    @media screen and (max width:600px) {
+        
+        .cabecera{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            height: 130px;
+            
+         .   
+                
+           
+        } 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
