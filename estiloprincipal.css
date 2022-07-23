@@ -195,8 +195,8 @@ background: magenta;
         
     
    @media screen and (max-width: 600px){
-    .Módulos{
-        grid: repeat(3, 300px)/ repeat(1, 300px);
+    .tienda{
+        grid-template: repeat(3, 300px) / repeat(1, 300px);
     }
 }
 
