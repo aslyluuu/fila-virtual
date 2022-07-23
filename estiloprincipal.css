@@ -194,24 +194,41 @@ background: magenta;
        
         
     
-    @media screen and (max-width: 600px) {
-        .tienda{
-            grid-template: repeat (3,300px)  / repeat (1,300px);
-        }
+   @media screen and (max-width: 600px){
+    .Módulos{
+        grid: repeat(3, 300px)/ repeat(1, 300px);
     }
-    
-    @media screen and (max width:600px) {
-        
-        .cabecera{
-            display: flex;
-            justify-content: space-between;
-            position: relative;
-            height: 130px;
-            
-         .   
-                
-           
-        } 
+}
+
+@media screen and (max-width: 600px){
+.Cabecera{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 155px;
+}
+.Cabecera figure{
+    width: 150px;
+    margin: auto;
+}
+.cabecera_img{
+    width: 95px;
+    height: 80px;
+}
+.cabecera_h1{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+.cabecera_frase{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+.nav{
+    display: none;
+}
+
         
         
         
