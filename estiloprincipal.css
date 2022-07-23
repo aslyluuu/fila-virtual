@@ -201,21 +201,21 @@ background: magenta;
 }
 
 @media screen and (max-width: 600px){
-.Cabecera{
+.cabecera{
     display: flex;
     justify-content: space-between;
     position: relative;
     height: 155px;
 }
-.Cabecera figure{
+.cabecera figure{
     width: 150px;
     margin: auto;
 }
-.cabecera_img{
+.cabecera img{
     width: 95px;
     height: 80px;
 }
-.cabecera_h1{
+.cabecera h1{
     position: absolute;
     top: 5px;
     left: 100px;
