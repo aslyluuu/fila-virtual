@@ -140,7 +140,9 @@ border: solid;
 border-radius:15px;
 overflow: hidden;
 }
-
+article:active{
+    transform: scale(1.10);
+}
 .tienda img {
     position: relative;
     top:5px;
